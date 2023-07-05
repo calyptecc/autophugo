@@ -3,7 +3,7 @@
 <head>
     <title>
     {{- block "title" . }}
-        {{- with .Title }}{{ . }} - {{ end }}{{ .Site.Title -}}
+        {{ .Site.Title -}}
     {{- end -}}
     </title>
 {{- partial "head.html" . }}
